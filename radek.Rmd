@@ -1,13 +1,16 @@
 ---
-title: "AGILE PhD School final presentation"
-author: "Radek Barvíř"
-date: "28. 11. 2019"
-output: html_document
+title: "Developing metrics for graphic map load measurements based on raster formats"
+author:
+  - name: Radek Barvíř
+    affiliation: University of Olomouc, Czech Republic
+    email: barvir.radek@gmail.com
+    orcid: 0000-0000-0000-0000
+abstract: |
+   Map load is an crucial property of a map quantifying the amount of map content. According to current state of art, there is a general agreement on the division to intellectual and graphic map load. While the first one mentioned describes the amount of information map can present to the map reader, the graphic map load is more focusing on graphic visual aids used. The graphic map load can also be more likely to be measured and compared as the intellectual one differs between individual users, their knowledge and skills. The optimal values for both map load types also differs between user groups and map purpose, and therefore are necessary to be identified.
+output:
+  ceurticles::twocolpceurws_article
+bibliography: samplebib.bib
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Developing metrics for graphic map load measurements based on raster formats
 
